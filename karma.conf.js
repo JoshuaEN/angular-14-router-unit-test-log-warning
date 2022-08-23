@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-14-router-log-warning'),
+      dir: require('path').join(__dirname, './coverage/angular-13-router-log-warning'),
       subdir: '.',
       reporters: [
         { type: 'html' },

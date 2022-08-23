@@ -7,6 +7,6 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-14-router-log-warning';
+  title = 'angular-13-router-log-warning';
   constructor(readonly router: Router) {}
 }
